@@ -1,0 +1,12 @@
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\bin\Debug\PioneerConsultancy.DAL.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\bin\Debug\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\obj\Debug\PioneerConsultancy.DAL.csprojResolveAssemblyReference.cache
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\obj\Debug\PioneerConsultancy.DAL.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\obj\Debug\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\bin\Debug\PioneerConsultancy.DAL.dll
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\bin\Debug\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\bin\Debug\PioneerTech.Models.dll
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\bin\Debug\PioneerTech.Models.pdb
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\obj\Debug\PioneerConsultancy.DAL.csprojResolveAssemblyReference.cache
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\obj\Debug\PioneerConsultancy.DAL.dll
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\PioneerTech.WebApp\PioneerConsultancy.DAL\obj\Debug\PioneerConsultancy.DAL.pdb

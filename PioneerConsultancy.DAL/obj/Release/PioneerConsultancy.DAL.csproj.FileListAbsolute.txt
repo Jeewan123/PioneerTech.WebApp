@@ -1,0 +1,7 @@
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\bin\Release\PioneerConsultancy.DAL.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\bin\Release\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\obj\Release\PioneerConsultancy.DAL.csprojResolveAssemblyReference.cache
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\obj\Release\PioneerConsultancy.DAL.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\obj\Release\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\bin\Release\PioneerTech.Models.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\Pioneer.Consultancy\PioneerConsultancy.DAL\bin\Release\PioneerTech.Models.pdb
