@@ -12,15 +12,23 @@
     <form id="MainMasterPage" runat="server">
         
         
-            <div id ="Header" class="Header">PIONEER TECH</div>
+            <div id ="Header" class="Header">PIONEER TECHNOLOGIES</div>
             <div id ="Navigation" class="Navigaiton">
-                <ul>
-                    <li><a href="Home.aspx">Home</a></li>
-                    <li><a href="EmployeeDetail.aspx">Employee Detail</a></li>
-                    <li><a href="ProjectDetail.aspx">Project Detail</a></li>
-                    <li><a href="CompanyDetail.aspx">Company Detail</a></li>
-                    <li><a href="About.aspx">About</a></li>
-                </ul>
+                
+                    
+                
+                <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/UI/Home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/UI/EmployeeDetail.aspx" Text="Employee Detail" Value="Employee Detail"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/UI/ProjectDetail.aspx" Text="Project Detail" Value="Project Detail"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/UI/CompanyDetail.aspx" Text="Company Detail" Value="Company Detail"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/UI/About.aspx" Text="About" Value="About"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+                
+                    
+                
             </div>
             <div id ="Footer" class="Footer"></div>
             <div id ="Content" class="Content">
