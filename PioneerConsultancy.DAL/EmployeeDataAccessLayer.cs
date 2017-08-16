@@ -62,5 +62,19 @@ namespace PioneerConsultancy.DAL
             return result;
         }
 
+      
+        public int EditCompanyDetail(CompanyModel myCompany)
+        {
+            SqlConnection mysqlconnection = new SqlConnection();
+            mysqlconnection.ConnectionString = "Data Source = DESKTOP-1246094;" +
+                                               "database = PioneerDataBase1;Integrated security = SSPI";
+
+            string sql = $"UPDATE [CompanyDetail] SET[EmployerName] =  '{myCompany.employerName}',[ContactNumber] = {myCompany.contactNumber},[Location] = '{myCompany.location}',[Website] =' {myCompany.website}' WHERE EmployeeID= {myCompany.employeeId}";
+            SqlCommand cmd =new SqlCommand(sql,mysqlconnection);
+            mysqlconnection.Open();
+            var result = cmd.ExecuteNonQuery();
+            mysqlconnection.Close();
+            return result;
+        }
     }
 }
