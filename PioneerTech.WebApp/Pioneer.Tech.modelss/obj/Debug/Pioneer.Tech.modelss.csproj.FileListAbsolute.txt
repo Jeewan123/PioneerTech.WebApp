@@ -1,0 +1,4 @@
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\Pioneer.Tech.modelss\bin\Debug\Pioneer.Tech.modelss.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\Pioneer.Tech.modelss\bin\Debug\Pioneer.Tech.modelss.pdb
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\Pioneer.Tech.modelss\obj\Debug\Pioneer.Tech.modelss.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\Pioneer.Tech.modelss\obj\Debug\Pioneer.Tech.modelss.pdb

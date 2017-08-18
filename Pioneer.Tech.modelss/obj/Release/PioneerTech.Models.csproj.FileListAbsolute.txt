@@ -1,0 +1,7 @@
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\bin\Release\PioneerTech.Models.dll
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\bin\Release\PioneerTech.Models.pdb
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\bin\Release\PioneerConsultancy.DAL.dll
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\bin\Release\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\obj\Release\PioneerTech.Models.csprojResolveAssemblyReference.cache
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\obj\Release\PioneerTech.Models.dll
+C:\Users\khadk\OneDrive\Documents\Visual Studio 2017\Projects\Pioneer.Consultancy\PioneerTech.Models\obj\Release\PioneerTech.Models.pdb

@@ -47,6 +47,9 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Pioneer.Tech.modelss">
+      <HintPath>Pioneer.Tech.modelss\bin\Debug\Pioneer.Tech.modelss.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -82,6 +85,7 @@
     <Content Include="Content\MainMasterPageStyleSheet.css" />
     <Content Include="Global.asax" />
     <Content Include="UI\ProjectDetail.aspx" />
+    <Content Include="UI\TechnicalDetail.aspx" />
     <Content Include="UI\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -132,6 +136,13 @@
     <Compile Include="UI\ProjectDetail.aspx.designer.cs">
       <DependentUpon>ProjectDetail.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI\TechnicalDetail.aspx.cs">
+      <DependentUpon>TechnicalDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\TechnicalDetail.aspx.designer.cs">
+      <DependentUpon>TechnicalDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -148,10 +159,6 @@
     <ProjectReference Include="..\PioneerConsultancy.DAL\PioneerConsultancy.DAL.csproj">
       <Project>{538F19C9-1B74-45A7-BC2A-CD57E2997AD8}</Project>
       <Name>PioneerConsultancy.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PioneerTech.Models\PioneerTech.Models.csproj">
-      <Project>{EDBF178D-BBEF-4260-A7B9-2732BCB2E159}</Project>
-      <Name>PioneerTech.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

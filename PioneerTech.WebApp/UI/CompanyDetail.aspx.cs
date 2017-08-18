@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using PioneerConsultancy.DAL;
-using PioneerTech.Models;
+using Pioneer.Tech.modelss;
 
 namespace PioneerTech.WebApp.UI
 {
@@ -26,7 +26,7 @@ namespace PioneerTech.WebApp.UI
             CompanyModel myCompany = new CompanyModel
             {
                 employerName = TextBox1.Text,
-                contactNumber = Convert.ToInt32(TextBox2.Text),
+                contactNumber = Convert.ToInt64(TextBox2.Text),
                 location = TextBox3.Text,
                 website = TextBox4.Text,
                 employeeId = Convert.ToInt32(TextBox5.Text)

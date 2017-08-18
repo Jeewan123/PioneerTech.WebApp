@@ -33,3 +33,7 @@ c:\users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp
 c:\users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\obj\Debug\PioneerTech.WebApp.Tests.csprojResolveAssemblyReference.cache
 c:\users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\obj\Debug\PioneerTech.WebApp.Tests.dll
 c:\users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\obj\Debug\PioneerTech.WebApp.Tests.pdb
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\bin\Debug\PioneerConsultancy.DAL.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\bin\Debug\PioneerConsultancy.DAL.pdb
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\bin\Debug\Pioneer.Tech.modelss.dll
+C:\Users\khadk\onedrive\documents\visual studio 2017\Projects\PioneerTech.WebApp\PioneerTech.WebApp.Tests\bin\Debug\Pioneer.Tech.modelss.pdb

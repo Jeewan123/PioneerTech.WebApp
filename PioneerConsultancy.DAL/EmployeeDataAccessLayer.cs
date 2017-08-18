@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using PioneerTech.Models;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
+using Pioneer.Tech.modelss;
+
 
 namespace PioneerConsultancy.DAL
 {
@@ -75,6 +71,53 @@ namespace PioneerConsultancy.DAL
             var result = cmd.ExecuteNonQuery();
             mysqlconnection.Close();
             return result;
+        }
+
+        public int EditEmployeeDetail(EmployeeModel myEmployee)
+        {
+            SqlConnection mysqlconnection = new SqlConnection();
+            mysqlconnection.ConnectionString = "Data Source = DESKTOP-1246094;" +
+                                               "database = PioneerDataBase1;Integrated security = SSPI";
+
+            string sql = $"UPDATE [EmployeeDetail] SET[FirstName] =  '{myEmployee.firstName}',[LastName] =  '{myEmployee.lastName}',[Email] =  '{myEmployee.emailId}',[PhoneNumber] = {myEmployee.phoneNumber},[AlternatePhoneNumber] = {myEmployee.alternatePhoneNumber},[Address1] = '{myEmployee.address1}',[Address2] = '{myEmployee.address2}',[HomeCountry] =' {myEmployee.homeCountry}',[CurrentCountry] =' {myEmployee.currentCountry}',[ZipCode] = {myEmployee.zipCode} WHERE EmployeeID= {myEmployee.employeeId}";
+            SqlCommand cmd = new SqlCommand(sql, mysqlconnection);
+            mysqlconnection.Open();
+            var result = cmd.ExecuteNonQuery();
+            mysqlconnection.Close();
+            return result;
+        }
+
+        public int EditProjectDetail(ProjectModel myProject)
+        {
+            SqlConnection mysqlconnection = new SqlConnection();
+            mysqlconnection.ConnectionString = "Data Source = DESKTOP-1246094;" +
+                                               "database = PioneerDataBase1;Integrated security = SSPI";
+
+            string sql = $"UPDATE [ProjectDetail] SET[ProjectName] =  '{myProject.projectName}',[ClientName] =  '{myProject.clientName}',[Location] =  '{myProject.location}',[roles] = '{myProject.roles}' WHERE EmployeeID= {myProject.employeeId}";
+            SqlCommand cmd = new SqlCommand(sql, mysqlconnection);
+            mysqlconnection.Open();
+            var result = cmd.ExecuteNonQuery();
+            mysqlconnection.Close();
+            return result;
+
+        }
+        
+        public int TakeTechnicalDetail(TechnicalModel myTechnical)
+        {
+            SqlConnection mysqlconnection = new SqlConnection();
+            mysqlconnection.ConnectionString = "Data Source = DESKTOP-1246094;" +
+                                               "database = PioneerDataBase1;Integrated security = SSPI";
+
+
+            SqlCommand cmd = new SqlCommand("INSERT INTO TechnicalDetail VALUES(" +
+            "'" + myTechnical.UI + "','" + myTechnical.ProgrammingLanguage + "','" + myTechnical.Database + "'," + myTechnical.employeeId + ")", mysqlconnection);
+           
+            //Opening Sql Database Connection
+            mysqlconnection.Open();
+            var result = cmd.ExecuteNonQuery();
+            mysqlconnection.Close();
+            return result;
+
         }
     }
 }

@@ -18,6 +18,7 @@ namespace PioneerTech.Models
         public string homeCountry { get; set; }
         public string currentCountry { get; set; }
         public int zipCode { get; set; }
+        public int employeeId { get; set; }
         
 
 

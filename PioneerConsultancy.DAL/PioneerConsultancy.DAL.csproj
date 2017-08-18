@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PioneerTech.Models">
-      <HintPath>..\PioneerTech.Models\bin\Release\PioneerTech.Models.dll</HintPath>
+    <Reference Include="Pioneer.Tech.modelss">
+      <HintPath>..\PioneerTech.WebApp\Pioneer.Tech.modelss\bin\Debug\Pioneer.Tech.modelss.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
